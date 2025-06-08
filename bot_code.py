@@ -9,7 +9,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 async def check_account_from_api(combo):
-    url = "https://your-vercel-project.vercel.app/api/solver/check"
+    url = "https://https://ghosty-ivory.vercel.app//api/solver/check"
     
     data = {
         "combo": combo,
